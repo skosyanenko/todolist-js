@@ -5,10 +5,17 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "materialize-css": "^1.0.0-rc.2"
+    "concurrently": "^4.1.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"webpack --watch\" \"webpack-dev-server\"",
+    "build": "webpack",
+    "serv": "static build"
   },
   "author": "",
   "license": "ISC"

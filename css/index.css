@@ -1,0 +1,31 @@
+.todo-container {
+    position: relative;
+    width: 800px;
+    margin: 50px auto;
+}
+
+.list-header {
+    margin-bottom: 0 !important;
+}
+
+.collection-item.active label > span {
+    color: #ffffff;
+}
+
+.secondary-edit {
+    margin-right: 15px;
+}
+
+.add-input {
+    display: flex;
+    align-items: center;
+}
+
+.add-input .button-add {
+    margin-left: 30px;
+    width: 180px;
+}
+
+.materialize-textarea {
+    color: black;
+}
